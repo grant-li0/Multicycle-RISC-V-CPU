@@ -102,7 +102,3 @@ For a replacement simulation runner, `tb_processor` accepts these plusargs:
 | `+CROSSBAR_TIMEOUT=<n>` | Crossbar read timeout; default 20 cycles |
 
 Hex images contain one 32-bit word per line. Instruction images must be assembled for the supported subset. CPU load/store addresses are offsets into data SRAM; the external crossbar maps instruction SRAM at `0x0000`, data SRAM at `0x1000`, and register reads at `0x2000`.
-
-## Third-party material
-
-The supplied SRAM model, `src/verilog/CF_SRAM_1024x32.tt_180V_25C.v`, carries a 2025 Umbralogic Technologies, LLC copyright notice. This snapshot includes no license establishing redistribution permission for that model or the onboarding framework. Confirm permission before public redistribution, and preserve the existing notices. No repository-wide license is asserted here.
