@@ -1,0 +1,3 @@
+../../src/verilog/cpu/cpu_pkg.sv
+../../src/verilog/cpu/decode.sv
+../../src/verilog/tb_decode.sv
